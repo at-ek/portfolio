@@ -1,0 +1,74 @@
+section {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 2s;
+}
+
+section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media screen and (min-width: 1000px) {
+     /* header */
+    nav button {
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    nav button:hover {
+        color: var(--bg);
+        background: var(--text);
+    }
+
+    nav button:last-child:hover {
+        color: var(--text);
+        background: var(--bg);
+    }
+    /* header */
+
+    /* contact */
+    #contact li {
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    #contact li:hover {
+        opacity: .6;
+    }
+    /* contact */
+
+    /* skills */
+    .button-container button {
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .button-container button:hover {
+        opacity: .9;
+    }
+    /* skills */
+
+    /* works */
+    .works-item a {
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .works-item a:hover {
+        transform: scale(1.1);
+    }
+    /* works */
+
+    /* hobby */
+    #hobbies li {
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    #hobbies li:hover {
+        transform: scale(1.2);
+    }
+    /* hobby */
+}
