@@ -6,7 +6,7 @@ export const profile = [
 ]
 
 export const contacts = [
-    {label: 'E-mail', text:'keita.shida0806@gmail.com', link: 'mailt:keita.shida0806@gmail.com'},
+    {label: 'E-mail', text:'keita.shida0806@gmail.com', link: 'mailto:keita.shida0806@gmail.com'},
     {label: 'GitHub', text:'github.com/', link: 'https://github.com/'},
     {label: 'Qiita', text:'qiita.com/', link: 'https://qiita.com/ke-tan'},
 ]

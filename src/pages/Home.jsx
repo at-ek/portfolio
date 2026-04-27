@@ -29,7 +29,7 @@ const Home = () => {
           {contacts.map((item) => {
             return (
               <li key={item.label}>
-                <a href={item.link}>{item.label}: <span className='text-link'>{item.text}</span></a>
+                <a href={item.link} target='_blank' rel='noopener noreferrer'>{item.label}: <span className='text-link'>{item.text}</span></a>
               </li>
             )
           })}
