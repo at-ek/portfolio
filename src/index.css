@@ -79,6 +79,7 @@ nav {
 nav button {
   flex: 1;
   height: 2.8em;
+  -webkit-text-fill-color: var(--text);
   color: var(--accent);
   background: var(--bg);
   border: none;
