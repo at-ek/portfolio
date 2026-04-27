@@ -79,6 +79,7 @@ nav {
 nav button {
   flex: 1;
   height: 2.8em;
+  color: var(--accent);
   background: var(--bg);
   border: none;
 }
